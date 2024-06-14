@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Utils">
+      <UniqueIdentifier>{c1abaaa5-c024-4ae6-a2cf-86e54be78e1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils">
+      <UniqueIdentifier>{b4114756-307e-472d-a646-c9a05a0f1f60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Protection">
+      <UniqueIdentifier>{98fd8436-4053-4c3d-bfa2-e0e4b4e6f96b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Protection">
+      <UniqueIdentifier>{a84c6eae-9bb9-4192-93cf-28af505ac8d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Cipher">
+      <UniqueIdentifier>{da9c4f97-ccde-4237-af1c-c5fb9f90d66c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Cipher">
+      <UniqueIdentifier>{34fbb1b6-94b8-43f8-9930-7a05076487be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Protection\ProcessGuard">
+      <UniqueIdentifier>{90f76032-3549-47ab-a8a2-d9d48af14208}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Protection\ProcessGuard">
+      <UniqueIdentifier>{b35ad47d-d085-4cd1-9142-e7851ac5733c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Discord">
+      <UniqueIdentifier>{509c4e7c-d93c-4a41-a585-825a2f3d7237}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dsetup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProtectThread.h">
+      <Filter>Header Files\Protection</Filter>
+    </ClInclude>
+    <ClInclude Include="Hook.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="structs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Tray.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="CpuUtils.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Process.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="RabbitCipher.h">
+      <Filter>Header Files\Cipher</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Splash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessGuard.h">
+      <Filter>Header Files\Protection\ProcessGuard</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadEnum.h">
+      <Filter>Header Files\Protection\ProcessGuard</Filter>
+    </ClInclude>
+    <ClInclude Include="ntstruct.h">
+      <Filter>Header Files\Protection\ProcessGuard</Filter>
+    </ClInclude>
+    <ClInclude Include="GuardOptions.h">
+      <Filter>Header Files\Protection\ProcessGuard</Filter>
+    </ClInclude>
+    <ClInclude Include="ThemidaSDK.h">
+      <Filter>Header Files\Protection</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK.h">
+      <Filter>Header Files\Discord</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketStructs.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dsetup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProtectThread.cpp">
+      <Filter>Source Files\Protection</Filter>
+    </ClCompile>
+    <ClCompile Include="Hook.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Process.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Tray.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="RabbitCipher.cpp">
+      <Filter>Source Files\Cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="CpuUtils.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Splash.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessGuard.cpp">
+      <Filter>Source Files\Protection\ProcessGuard</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadEnum.cpp">
+      <Filter>Source Files\Protection\ProcessGuard</Filter>
+    </ClCompile>
+    <ClCompile Include="GuardLog.cpp">
+      <Filter>Source Files\Protection\ProcessGuard</Filter>
+    </ClCompile>
+    <ClCompile Include="GuardUtils.cpp">
+      <Filter>Source Files\Protection\ProcessGuard</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="dsetup.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon1.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="SecureEngineSDK32.lib" />
+    <Library Include="SecureEngineSDK64.lib" />
+    <Library Include="DiscordSDK.lib" />
+  </ItemGroup>
+</Project>
